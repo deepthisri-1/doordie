@@ -4,6 +4,7 @@
     <aura:attribute name="spinnerWaiting" type="Boolean" default="false"/>
     <aura:handler name="init" value="{!this}" action="{!c.onLoadDatasets}" />
     <div class="slds-card">
+    //it is an aura component
         <div class="slds-p-left_medium slds-p-right_medium">
             <lightning:layout verticalAlign="end" class="slds-m-around--small">
                 <lightning:layoutitem flexibility="grow">
